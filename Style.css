@@ -1,8 +1,33 @@
 .contenedor{
     display:flex;
+    flex-direction: column;
+
 
     margin:auto;
     width: 960px;
     height: 900px;
     background-color:rosybrown;
+
+ 
     }
+
+.informacion{
+    display: flex;
+    justify-content: space-between;
+    width:960px;
+    height: 700px;
+    background-color: rgba(181, 137, 137, 0.844);
+    text-align: center;
+
+}
+.detalles{
+    width: 75%;
+    background-color: rgb(185, 150, 150);
+}
+.fotografia{
+    width: 25%;
+    background-color: rgba(180, 162, 162, 0.851);
+}
+.elemento{
+    
+}
